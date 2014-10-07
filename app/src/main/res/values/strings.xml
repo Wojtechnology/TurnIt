@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">TurnIt</string>
+    <string name="connection_text">Not Connected</string>
+    <string name="direction_text">Not Connected...</string>
+    <string name="left_hand">Left Handed</string>
+    <string name="on_button">App On</string>
+    <string name="off_button">App Off</string>
+    <string name="action_settings">Settings</string>
+
+</resources>

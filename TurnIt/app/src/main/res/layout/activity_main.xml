@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Connecting..."
+        android:id="@+id/connection_view"
+        android:layout_gravity="right"
+        android:layout_alignTop="@+id/off_button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/buttonOn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="On"
+        android:layout_above="@+id/buttonDesc"
+        android:layout_alignRight="@+id/buttonSearch"
+        android:layout_alignEnd="@+id/buttonSearch" />
+
+    <Button
+        android:id="@+id/buttonDesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Make Discoverable"
+        android:layout_below="@+id/on_button"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/buttonSearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Search"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/off_button"
+        android:layout_toStartOf="@+id/off_button" />
+    <Button
+        android:id="@+id/buttonOff"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Off"
+        android:layout_above="@+id/direction_view"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ListView
+        android:id="@+id/listViewPaired"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+    </ListView>
+
+    <ListView
+        android:id="@+id/listViewDetected"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/listViewPaired"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+    </ListView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Getting Data..."
+        android:id="@+id/direction_view"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:layout_above="@+id/listViewPaired"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App On"
+        android:id="@+id/on_button"
+        android:onClick="open_app"
+        android:textColor="#ffff7b00"
+        android:textStyle="bold"
+        android:clickable="true"
+        android:layout_toEndOf="@+id/direction_view"
+        android:layout_alignTop="@+id/left_hand"
+        android:layout_alignRight="@+id/off_button"
+        android:layout_alignEnd="@+id/off_button"
+        android:layout_toRightOf="@+id/direction_view" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="App Off"
+        android:id="@+id/off_button"
+        android:onClick="close_app"
+        android:textStyle="bold"
+        android:textColor="#FFFF7B00"
+        android:clickable="true"
+        android:layout_toEndOf="@+id/direction_view"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_toRightOf="@+id/direction_view" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Left Handed"
+        android:id="@+id/left_hand"
+        android:textSize="22dp"
+        android:checked="false"
+        android:layout_toEndOf="@+id/buttonDesc"
+        android:layout_above="@+id/buttonOff"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

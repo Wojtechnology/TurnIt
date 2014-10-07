@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="/Users/wojtekswiderski/AndroidStudioProjects/IndicatR/app/build/intermediates/pre-dexed/debug/guava-14.0.1-f520b967b8f629b614d4b9b932b0868ecdad661d.jar"
+        jar="/Users/wojtekswiderski/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/14.0.1/69e12f4c6aeac392555f1ea86fab82b5e5e31ad4/guava-14.0.1.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="69e12f4c6aeac392555f1ea86fab82b5e5e31ad4"/>
+    <item
+        dex="/Users/wojtekswiderski/AndroidStudioProjects/IndicatR/app/build/intermediates/pre-dexed/debug/classes-b6f5638fd6f2107d006bce443c854f2bbdfb5ed3.jar"
+        jar="/Users/wojtekswiderski/AndroidStudioProjects/IndicatR/app/build/intermediates/exploded-aar/com.getpebble/pebblekit/2.5.0/classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="fcd447344b983fe2b2aef2f7c7c960451234cca9"/>
+
+</pre-dex-items>

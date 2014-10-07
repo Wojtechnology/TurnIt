@@ -1,0 +1,19 @@
+{
+    "appKeys": {},
+    "capabilities": [
+        ""
+    ],
+    "companyName": "wojtus@rogers.com",
+    "longName": "Accel",
+    "projectType": "native",
+    "resources": {
+        "media": []
+    },
+    "shortName": "Accel",
+    "uuid": "78a84721-0404-4b4f-b91b-1a3fdf41e86c",
+    "versionCode": 1,
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": false
+    }
+}
